@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/background"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#343434"
+    android:gravity="center"
+    >
+
+
+    <Button
+        android:id="@+id/btnPurple"
+        android:layout_width="225dp"
+        android:layout_marginTop="25dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:background="#6c1499"
+        android:text="Change to Purple"
+        android:textColor="#f4f4f4" />
+
+
+    <Button
+        android:id="@+id/btnBlue"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:background="#006699"
+        android:text="Change to Blue"
+        android:textColor="#f4f4f4" />
+
+    <Button
+        android:id="@+id/btnGreen"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:background="#0dc75d"
+        android:text="Change to Green"
+        android:textColor="#f4f4f4"
+        />
+
+    <Button
+        android:id="@+id/btnYellow"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:background="#c7b80d"
+        android:text="Change to Yellow"
+        android:textColor="#f4f4f4"
+        />
+
+    <Button
+        android:id="@+id/btnRed"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="#991815"
+        android:text="Change to Red"
+        android:textColor="#f4f4f4"
+
+
+        />
+
+    <Button
+        android:id="@+id/btnRestart"
+        android:layout_width="90dp"
+        android:layout_height="47dp"
+        android:background="#5b5b5b"
+        android:text="Restart"
+        android:textColor="#f4f4f4"
+        android:layout_marginRight="130dp"
+        android:layout_marginBottom="15dp"
+        />
+
+
+
+
+
+</LinearLayout>
